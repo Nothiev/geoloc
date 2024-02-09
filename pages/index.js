@@ -1,15 +1,14 @@
-// pages/index.js
+// Dans une page, par exemple pages/index.js
 import React from 'react';
-import MapContainer from '@/pages/MapContainer';
+import DynamicMap from '../pages/DynamicMap'; // Ajustez le chemin selon votre structure
 
-const Home = () => {
+const HomePage = () => {
   return (
     <div>
-      <h1>Ma Page d'Accueil</h1>
-      <MapContainer />
+      <h1>Page d'accueil</h1>
+      <DynamicMap />
     </div>
   );
 };
 
-export default Home;
-
+export default HomePage;
